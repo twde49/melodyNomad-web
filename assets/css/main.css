@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+@import "@nuxt/ui";
+:root {
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    line-height: 28px;
+    --primary-color: #2B4F2E;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #FAF9EB;
+    color: black;
+    overflow-x: hidden;
+}
+
+.chivo {
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.titleFont {
+    font-family: "Poltawski Nowy", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--primary-color);
+}
+
+.primaryText {
+    color: var(--primary-color);
+}
+
+.primaryBackground {
+    background-color: var(--primary-color);
+}
